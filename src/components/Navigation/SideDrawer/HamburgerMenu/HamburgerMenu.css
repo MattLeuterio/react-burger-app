@@ -1,0 +1,16 @@
+.HamburgerMenu {
+    cursor: pointer;
+}
+
+.HamburgerMenu .Line {
+    height: 3px;
+    width: 28px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+@media (min-width: 500px) {
+    .HamburgerMenu {
+        display: none;
+    }
+}
